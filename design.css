@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    line-height: 1.15;
+    
+}
+
+body {
+    background: linear-gradient(to bottom, #33ccff, #ff99cc);
+    background-image: url('hotel3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2em;
+}
+th {
+background-color:rgb(213, 239, 248);	
+}
+tr {
+    background-color:rgb(213, 239, 248);	
+    }
+#header{
+z-index: 2;
+margin-top: 10px;
+font-size:30pt;
+font-style:italic;	
+text-align:center;
+font-size: 30px;
+letter-spacing: 1px;
+}
+.options-container {
+    background: linear-gradient(to bottom, #FF6E7E, #FFC371);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; 
+    margin: 0 auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.results-container {
+    background: linear-gradient(to bottom, #FFC371, #FF6E7E);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
